@@ -1,0 +1,13 @@
+<ion-navbar *navbar>
+  <ion-title>
+    Blank Starter
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="home" padding>
+  <h1 text-center>Press a button to navigate</h1>
+
+  <button block danger (click)="pushPage('Danger')">Danger</button>
+  <button block primary (click)="pushPage('Primary')">Primary</button>
+  <button block secondary (click)="pushPage('Secondary')">Secondary</button>
+</ion-content>
