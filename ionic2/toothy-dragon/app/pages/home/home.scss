@@ -1,3 +1,51 @@
 .home {
-  
+  .main {
+    $mainHeight: 205px;
+    width: 70%;
+    height: $mainHeight;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    margin: 0 auto;
+    margin-top: -$mainHeight / 2;
+
+    text-align: center;
+  }
+
+  .mood-question {
+    margin: 20px 0 5px 0;
+
+    color: map-get($colors, 'textLight');
+    font-size: 0.9em;
+  }
+
+  .mood-option {
+    $moodOptionSize: 32px;
+    width: $moodOptionSize;
+    max-width: 30%;
+    height: $moodOptionSize;
+    display: inline-block;
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    + .mood-option {
+      margin-left: 5px;
+    }
+  }
+
+    @each $mood in happy, neutral, sad {
+      .mood-#{$mood} {
+        background-image: url('../img/#{$mood}.png');
+
+        &.selected {
+          background-image: url('../img/#{$mood}_h.png');
+        }
+      }
+    }
+
+  .icon-panel {
+    font-size: 32px;
+    color: #eee;
+  }
 }

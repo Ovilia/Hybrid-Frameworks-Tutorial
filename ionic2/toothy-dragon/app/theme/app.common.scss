@@ -1,0 +1,10 @@
+img {
+  max-width: 100%;
+}
+
+.top-right {
+  position: absolute;
+  display: inline-block;
+  right: $padding;
+  top: $padding-lg;
+}

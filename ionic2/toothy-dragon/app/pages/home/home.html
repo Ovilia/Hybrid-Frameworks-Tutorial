@@ -1,13 +1,19 @@
-<ion-navbar *navbar>
-  <ion-title>
-    Blank Starter
-  </ion-title>
-</ion-navbar>
-
 <ion-content class="home" padding>
-  <h1 text-center>Press a button to navigate</h1>
+  <div class="main">
+    <div class="main-dragon">
+      <img src="build/img/happy_dragon.png">
+    </div>
+    <div class="mood-panel">
+      <div class="mood-question">How do you feel today?</div>
+      <div class="mood-select">
+        <a class="mood-option mood-happy selected"></a>
+        <a class="mood-option mood-neutral"></a>
+        <a class="mood-option mood-sad"></a>
+      </div>
+    </div>
+  </div>
 
-  <button block danger (click)="pushPage('Danger')">Danger</button>
-  <button block primary (click)="pushPage('Primary')">Primary</button>
-  <button block secondary (click)="pushPage('Secondary')">Secondary</button>
+  <div class="top-right icon-panel">
+    <ion-icon name="apps"></ion-icon>
+  </div>
 </ion-content>
