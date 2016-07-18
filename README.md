@@ -2,7 +2,7 @@
 
 Hi, visitors. How do you feel today?
 
-Here's a book for you to get started with hybrid solutions like [ionic](http://ionicframework.com), [react native](https://facebook.github.io/react-native), [crosswalk](http://www.crosswalk.com) and so on. This is a project to guide you through the whole process of making an app, who keeps asking *How do you feel today*.
+Here's a book for you to get started with hybrid solutions like [ionic](http://ionicframework.com), [react native](https://facebook.github.io/react-native), [crosswalk](https://crosswalk-project.org/) and so on. This is a project to guide you through the whole process of making an app, who keeps asking *How do you feel today*.
 
 Through the tutorial, we are going to build a simple app to record your everyday mood. By the end of the tutorial, we will have an app with two pages, one for recording today's mood, the other for calendar.
 
