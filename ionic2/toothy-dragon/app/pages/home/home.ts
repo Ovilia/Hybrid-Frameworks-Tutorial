@@ -10,7 +10,7 @@ export class HomePage {
 
   }
 
-  pushPage(buttonColor: string) {
-    this._navController.push(DetailPage, { color: buttonColor });
+  pushPage() {
+    this._navController.push(DetailPage);
   }
 }
